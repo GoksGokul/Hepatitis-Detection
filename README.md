@@ -70,8 +70,8 @@ Model Evaluation
 1. Evaluate the performance of the optimized SVM model on the test dataset.
 python hdspso.py
 
-Results :-
-The results of the project include the optimized parameters for the SVM model and the performance metrics (accuracy, precision, recall, F1-score) on the test dataset. These results are stored in the results directory.
+Results
+1. The results of the project include the optimized parameters for the SVM model and the performance metrics (accuracy, precision, recall, F1-score) on the test dataset. These results are stored in the results directory.
 
 Contributing
 1. Contributions are welcome! Please fork the repository and submit a pull request.
