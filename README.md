@@ -4,6 +4,7 @@ Overview
 This project aims to develop a system for the detection of hepatitis using Support Vector Machine (SVM) and Particle Swarm Optimization (PSO). The Weka tool is used for data preprocessing and feature selection, while PSO is employed to optimize the parameters of the SVM model.
 
 Table of Contents
+-----------------
 Introduction
 Dataset
 Prerequisites
@@ -73,12 +74,12 @@ Results :-
 The results of the project include the optimized parameters for the SVM model and the performance metrics (accuracy, precision, recall, F1-score) on the test dataset. These results are stored in the results directory.
 
 Contributing
-~ Contributions are welcome! Please fork the repository and submit a pull request.
+1. Contributions are welcome! Please fork the repository and submit a pull request.
 
 License
-~ This project is licensed under the MIT License. See the LICENSE file for more details.
+1. This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Acknowledgments
-~ The UCI Machine Learning Repository for providing the Hepatitis dataset.
-~ The developers of Weka and scikit-learn for their excellent tools.
-~ All contributors and supporters of this project.
+1. The UCI Machine Learning Repository for providing the Hepatitis dataset.
+2. The developers of Weka and scikit-learn for their excellent tools.
+3. All contributors and supporters of this project.
