@@ -1,4 +1,4 @@
-Hepatitis Detection Using SVM and Weka Tool Based PSO
+**Hepatitis Detection Using SVM and Weka Tool Based PSO**
 
 Overview
 1. This project aims to develop a system for the detection of hepatitis using Support Vector Machine (SVM) and Particle Swarm Optimization (PSO). The Weka tool is used for data preprocessing and feature selection, while PSO is employed to optimize the parameters of the SVM model.
