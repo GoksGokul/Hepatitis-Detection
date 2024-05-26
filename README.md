@@ -1,1 +1,84 @@
-# Hepatitis-Detection
+Hepatitis Detection Using SVM and Weka Tool Based PSO
+
+Overview
+This project aims to develop a system for the detection of hepatitis using Support Vector Machine (SVM) and Particle Swarm Optimization (PSO). The Weka tool is used for data preprocessing and feature selection, while PSO is employed to optimize the parameters of the SVM model.
+
+Table of Contents
+Introduction
+Dataset
+Prerequisites
+Installation
+Usage
+Project Structure
+Results
+Contributing
+License
+Acknowledgments
+
+Introduction
+Hepatitis is a significant health issue worldwide. Early and accurate detection can improve patient outcomes and reduce healthcare costs. This project leverages machine learning techniques to develop an efficient and accurate hepatitis detection system.
+
+Objectives
+To preprocess hepatitis dataset using Weka tool.
+To select relevant features using Weka's feature selection methods.
+To optimize SVM parameters using Particle Swarm Optimization (PSO).
+To evaluate the performance of the SVM model for hepatitis detection.
+
+Dataset
+The dataset used in this project is the Hepatitis dataset from the UCI Machine Learning Repository. It contains various medical features related to hepatitis patients.
+
+Features
+Age
+Sex
+Malaise
+Spiders
+SGOT
+Albumin
+
+Target Variable
+Class (1: Die, 2: Live)
+
+Prerequisites
+Python (for implementing PSO and SVM)
+Weka 3.8 or later
+Required Python libraries: numpy, pandas, scikit-learn
+
+Installation
+Download and install Weka:
+https://sourceforge.net/projects/weka/
+
+Clone the repository:
+git clone https://github.com/GoksGokul/Hepatitis-Detection.git
+cd Hepatitis-Detection
+
+Install required Python libraries:
+pip install numpy pandas scikit-learn
+
+Usage
+Data Preprocessing
+1. Open Weka GUI.
+2. Load the Hepatitis dataset.
+3. Perform necessary preprocessing (e.g., handling missing values, normalization).
+4. Save the preprocessed dataset.
+
+Feature Selection
+1. Use Weka's feature selection methods (e.g., CfsSubsetEval, InfoGainAttributeEval) to select relevant features.
+2. Export the selected features for model training.
+   
+Model Evaluation
+1. Evaluate the performance of the optimized SVM model on the test dataset.
+python hdspso.py
+
+Results :-
+The results of the project include the optimized parameters for the SVM model and the performance metrics (accuracy, precision, recall, F1-score) on the test dataset. These results are stored in the results directory.
+
+Contributing
+~ Contributions are welcome! Please fork the repository and submit a pull request.
+
+License
+~ This project is licensed under the MIT License. See the LICENSE file for more details.
+
+Acknowledgments
+~ The UCI Machine Learning Repository for providing the Hepatitis dataset.
+~ The developers of Weka and scikit-learn for their excellent tools.
+~ All contributors and supporters of this project.
